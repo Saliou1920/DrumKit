@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-- Live Site URL: [Here](https://saliou1920.github.io/dice//)
+- Live Site URL: [Here](https://saliou1920.github.io/DrumKit/)
 
 ## Table of contents 🙂
 
@@ -26,7 +26,7 @@ This is a collection of drums, cymbals and other percussion instruments.
 
 Play it here 👇
 
-- Live Site URL: [Here](https://saliou1920.github.io/dice//)
+- Live Site URL: [Here](https://saliou1920.github.io/DrumKit/)
 
 
 ### Built with 🧰 
