@@ -7,10 +7,12 @@ for (let index = 0; index < listener.length; index++) {
     listener[index].addEventListener("click", function() {
         //console.log(this.textContent);
         playSound(this.textContent);
+        buttonAnimation(this.textContent);
     });
 }
 document.addEventListener("keydown", function(event) {
     playSound(event.key);
+    buttonAnimation(event.key);
 });
 
 
@@ -49,4 +51,13 @@ function playSound(type) {
         default:
             break;
     }
+}
+
+function buttonAnimation(currentKey) {
+    let activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 100);
+
 }
