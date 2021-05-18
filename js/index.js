@@ -9,6 +9,9 @@ for (let index = 0; index < listener.length; index++) {
         playSound(this.textContent);
     });
 }
+document.addEventListener("keydown", function(event) {
+    playSound(event.key);
+});
 
 
 function playSound(type) {
